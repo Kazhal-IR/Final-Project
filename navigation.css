@@ -51,13 +51,13 @@ ul.topnav li a:hover:not(.active) {background-color: rgba(185, 154, 15, 0.658);}
     
 ul.topnav li a.active {background-color: #4CAF50;}
     ul.topnav li.right {
-        float: none;
+        float: inline-start;
       }
       
       @media screen and (max-width: 600px)
       {
         ul.topnav li.right, 
         ul.topnav li {
-          float: none;
+          float: inline-end;
         }
       }
