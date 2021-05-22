@@ -37,7 +37,9 @@ ul.topnav {
  
 }
 
-ul.topnav li {float: left;}
+ul.topnav li {
+  float: left;
+}
 
 ul.topnav li a {
   display: block;
@@ -85,9 +87,10 @@ ul.topnav li a.active {background-color: #4CAF50;}
 
    .table-simple {
 
-    padding-right: auto;
+    margin-right: auto;
 
-    padding-left: auto;
+    margin-left: auto;
+
     padding: 40px;
 
     margin-left: auto;
