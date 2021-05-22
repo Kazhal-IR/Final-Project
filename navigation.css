@@ -2,6 +2,7 @@
 .topnav {
     list-style-type: none;
     margin-left: 100px;
+    margin-right: 100px;
     padding: 15px;
     overflow: hidden;
     background-color: rgb(221, 177, 31);
@@ -105,4 +106,8 @@ ul.topnav li a.active {background-color: #4CAF50;}
   
    }
 
+   .lala {
+     margin-right: auto;
+     margin-left: auto;
+   }
   
