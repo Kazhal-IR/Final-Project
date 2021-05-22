@@ -7,6 +7,8 @@
     max-width: 50%;
     
     position: relative;
+
+    size: 100px;
     
     }
     
@@ -42,14 +44,16 @@
     
     -ms-transform: translate(0%, -50%)
     
+
     
     }
     
     .slider-button:hover {
     
-    color: rgb(214, 236, 14);
+    color: rgb(236, 166, 14);
     
-    background-color:rgb(45, 46, 2);
+    background-color:rgb(110, 38, 5);
+   
     
     }
     
@@ -62,3 +66,5 @@
 
         right: -10%;
     }
+
+    
