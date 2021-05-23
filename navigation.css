@@ -1,4 +1,8 @@
 
+body {
+  background-color: rgb(245, 245, 159);
+}
+
 .topnav {
     list-style-type: none;
     margin-left: 100px;
@@ -91,7 +95,7 @@ ul.topnav li a.active {background-color: #4CAF50;}
 
     margin-left: auto;
 
-    padding: 40px;
+    padding: 400px;
 
     margin-left: auto;
 
@@ -106,11 +110,112 @@ ul.topnav li a.active {background-color: #4CAF50;}
     font-family: system-ui;
     
     font-size: 1.3em;
+    
+    content: counter(step-counter);
   
    }
+   table, td, th {
 
-   .lala {
-     margin-right: auto;
-     margin-left: auto;
+    border: 1px solid rgb(53, 39, 39);
+    
+    }
+    
+    table {
+    
+    border-collapse: separate;
+    
+    }
+   tr, th, td {
+       padding: 150px;
    }
+   td{
+       text-align: left;
+   }
+
+   .caption {
+
+    caption-side: top;
+    
+    text-align: center;
+    
+    font-style: italic;
+    
+    font-weight: bold;
+    
+    color: rgb(204, 173, 86);
+    
+    }
+
+    table, th,td {
+
+        border: 1px solid black;
+        
+        border-collapse: collapse;
+        
+        }
+        
+        th,td {
+        
+        padding: 15px;
+        
+        text-align: center;
+        
+        }
+        
+        caption {
+
+        margin-top: 30px;
+
+        margin-bottom: 20px;
+
+        padding: auto;
+        
+        caption-side: top;
+        
+        text-align: center;
+        
+        font-style: italic;
+
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+        font-weight: bold;
+        
+        color: rgb(20, 7, 7);
+
+        
+        }
+        
+        .table-simple th {
+        
+        background-color: rgba(139, 113, 27, 0.733);
+        
+        color: rgb(15, 3, 3);
+        
+        }
+        .table-simple tr:nth-child(even) {
+
+            background-color: #e9a321f3;
+            
+            }
+            
+            .table-simple tr:nth-child(odd) {
+            
+            background-color: #e9a321f3;
+            
+            }
+            
+            .table-simple tr:hover {
+            
+            background-color: #e4ae4a;
+            
+            }
+            .head-body-foot thead {
+
+                color: rgb(27, 20, 10);
+                
+                background-color: #e9a321f3;
+                
+                }
+                
+                
   
