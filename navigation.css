@@ -1,6 +1,6 @@
 
 body {
-  padding: auto;
+  padding: 0 16px;
 }
 
 .topnav {
@@ -115,7 +115,9 @@ ul.topnav li a.active {background-color: #4CAF50;}
     border-style: dotted;
 
     border-collapse: collapse;    
+
    }
+
    table, td, th {
 
     border: 1px solid rgb(53, 39, 39);
@@ -182,7 +184,7 @@ ul.topnav li a.active {background-color: #4CAF50;}
 
         margin-bottom: 20px;
 
-        padding: auto;
+        padding: 0 16px;
         
         caption-side: top;
         
@@ -239,10 +241,15 @@ ul.topnav li a.active {background-color: #4CAF50;}
 
      p{
        font-family: Verdana, Geneva, Tahoma, sans-serif;
-
        margin-left: auto;
        justify-content: center;
        text-align: center;
        white-space: pre-wrap;
-     }           
-  
+     } 
+
+img {
+  width: 400px;
+  height: 253px;
+  border-style: groove;
+  border-color: black;
+}
