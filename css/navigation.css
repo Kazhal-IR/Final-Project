@@ -1,0 +1,255 @@
+
+body {
+  padding: 0 16px;
+}
+
+.topnav {
+    list-style-type: none;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 15px;
+    overflow: hidden;
+    background-color: rgb(221, 177, 31);
+    display: flex;
+    justify-content: space-around;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.topnav li {
+    float: inline-start;
+}
+
+.topnav li a {
+display: block; 
+color: beige;
+text-overflow: initial;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.topnav li a:hover {
+    background-color: rgb(221, 177, 31);
+}
+body {margin: 0;}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(124, 78, 8);
+ 
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align:center
+}
+
+.div-content {
+  font-size: 15px;
+  font-family: Georgia, Times, serif;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  justify-content: center;
+  background-color: rgb(245, 245, 159);;
+}
+
+.footer{
+  font-size: 15px;
+  font-family: Georgia, Times, serif;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  justify-content: center;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: rgba(185, 154, 15, 0.658);}
+    
+ul.topnav li a.active {background-color: #4CAF50;}
+    ul.topnav li.right {
+        float: inline-start;
+      }
+      
+      @media screen and (max-width: 600px)
+      {
+        ul.topnav li.right, 
+        ul.topnav li {
+          float: inline-end;
+        }
+      }
+
+   .table-simple {
+
+    margin-right: auto;
+
+    margin-left: auto;
+
+    padding: 400px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    background: #d8bb97;
+            
+    height: auto;
+    
+    width: auto;
+    
+    font-family: system-ui;
+    
+    font-size: 1.3em;
+  
+    border-style: dotted;
+
+    border-collapse: collapse;    
+
+   }
+
+   table, td, th {
+
+    border: 1px solid rgb(53, 39, 39);
+
+    
+    }
+    
+    table {
+    
+    border-collapse: collapse;
+
+    
+    
+    }
+   tr, th, td {
+       padding: 150px;
+
+
+   }
+   td{
+       text-align: left;
+
+   
+   }
+
+   .caption {
+
+    caption-side: top;
+
+    
+    text-align: center;
+    
+    font-style: italic;
+    
+    font-weight: bold;
+    
+    color: rgb(204, 173, 86);
+    
+    }
+
+    table, th,td {
+
+        border: 3px solid rgb(80, 70, 70);
+        
+        border-collapse: collapse;
+
+    border-style: dotted;
+        
+        }
+        
+        th,td {
+        
+        padding: 15px;
+        
+        text-align: center;
+
+    
+        
+        }
+        
+        caption {
+
+        margin-top: 30px;
+
+        margin-bottom: 20px;
+
+        padding: 0 16px;
+        
+        caption-side: top;
+        
+        text-align: center;
+        
+        font-style: italic;
+
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+        font-weight: bold;
+        
+        color: rgb(20, 7, 7);
+
+        
+        }
+        
+        .table-simple th {
+        
+        background-color: rgba(238, 222, 168, 0.733);
+        
+        color: rgb(15, 3, 3);
+       
+        
+        }
+        .table-simple tr:nth-child(even) {
+
+            background-color: #f4f5c9f3;
+            
+            }
+            
+            .table-simple tr:nth-child(odd) {
+            
+            background-color: #f5f1bcf3;
+            
+            }
+            
+            .table-simple tr:hover {
+            
+            background-color: #c7b592;
+            
+            }
+            .head-body-foot thead {
+
+                color: rgb(27, 20, 10);
+                
+                background-color: #b8ac98f3;
+                
+                }
+                
+.contact {
+  margin-left: 60px;
+  margin-bottom: 800px;
+}
+
+     p{
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       margin-left: auto;
+       justify-content: center;
+       text-align: center;
+       white-space: pre-wrap;
+     } 
+
+img {
+  width: auto;
+  height: auto;
+  
+}
+
