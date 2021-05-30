@@ -1,6 +1,7 @@
 
 body {
   padding: 0 16px;
+  background-color: rgb(238, 196, 134);
 }
 
 .topnav {
@@ -95,6 +96,8 @@ ul.topnav li a.active {background-color: #4CAF50;}
     margin-right: auto;
 
     margin-left: auto;
+
+    margin-bottom: 30px;
 
     padding: 400px;
 
@@ -245,11 +248,40 @@ ul.topnav li a.active {background-color: #4CAF50;}
        justify-content: center;
        text-align: center;
        white-space: pre-wrap;
+       margin-bottom: 15px;
+       margin-top: 10px;
+       background-color: rgb(245, 245, 159);
+      
      } 
 
-img {
-  width: auto;
-  height: auto;
-  
+
+#gmail{
+  width: 256px;
+  height: 194px;
+}
+
+#tiktok{
+  width: 198.2px;
+  height: 148.6px;
+}
+
+#photo {
+width: 242px;
+height: 242px;
+}
+
+#gustaf{
+width: auto;
+height: auto;
+}
+
+#slides {
+  width: fit-content;
+  height: fit-content;
+}
+
+#instagram {
+  width: 254.8px;
+  height: 256.0px;
 }
 

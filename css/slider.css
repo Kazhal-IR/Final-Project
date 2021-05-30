@@ -37,8 +37,8 @@
     white-space: nowrap;
     
     position: absolute;
-    
-    top: 64%;
+
+    bottom: 40%;
 
     transform: translate(0%, -50%);
     
